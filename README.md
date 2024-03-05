@@ -3,6 +3,15 @@
 
 This repository contains my personal notes and codes for the book of [_Machine Learning_](http://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/MLbook2016.htm "Book information") written by [Prof. Zhou Zhihua](http://cs.nju.edu.cn/zhouzh/ "Author Personal Website"). 
 
+## How to run the codes in a virtual environment
+### Set up a virtual environment for the first time
+```
+$ {in the project folder:}
+$ python3 -m venv ../Machine-Learning-Zhou_Zhihua_venv
+$ . ../Machine-Learning-Zhou_Zhihua_venv/bin/activate
+(ML_Notes_venv) $ pip install numpy jupyterlab matplotlib scikit-learn pandas
+```
+
 ## Supervised Learning
 1. [Linear Model from Stratch](https://github.com/Hatchin/Machine-Learning-Zhou_Zhihua/tree/master/Linear)
    - [Logistic Regresssion from Stratch](https://github.com/Hatchin/Machine-Learning-Zhou_Zhihua/tree/master/Linear/LogisticRegression) 
